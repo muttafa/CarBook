@@ -12,7 +12,6 @@ namespace CarBook.Domain.Entities
         public string Description { get; set; }
         public string Mail { get; set; }
         public string PhoneNumber { get; set; }
-        public string PhoneNumber { get; set; }
 
     }
 }
