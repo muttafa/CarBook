@@ -1,0 +1,16 @@
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\bin\Debug\net8.0\CarBook.Application.deps.json
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\bin\Debug\net8.0\CarBook.Application.dll
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\bin\Debug\net8.0\CarBook.Application.pdb
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\bin\Debug\net8.0\CarBook.Domain.dll
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\bin\Debug\net8.0\CarBook.Domain.pdb
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.csproj.AssemblyReference.cache
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.AssemblyInfoInputs.cache
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.AssemblyInfo.cs
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.csproj.CoreCompileInputs.cache
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.sourcelink.json
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.csproj.CopyComplete
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.dll
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\refint\CarBook.Application.dll
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\CarBook.Application.pdb
+C:\Users\mucar\source\repos\CarBook\CarBook\Core\CarBook.Application\obj\Debug\net8.0\ref\CarBook.Application.dll
