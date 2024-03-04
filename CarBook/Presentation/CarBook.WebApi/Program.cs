@@ -1,9 +1,9 @@
 using CarBook.Application.Features.CQRS.Handlers.AboutHandlers;
 using CarBook.Application.Features.CQRS.Handlers.BannerHandlers;
 using CarBook.Application.Features.CQRS.Handlers.BrandHandlers;
-using CarBook.Application.Features.CQRS.Handlers.CarDescriptionHandlers;
-using CarBook.Application.Features.CQRS.Handlers.CarFeatureHandlers;
 using CarBook.Application.Features.CQRS.Handlers.CarHandlers;
+using CarBook.Application.Features.CQRS.Handlers.CategoryHandler;
+using CarBook.Application.Features.CQRS.Handlers.ContactHandler;
 using CarBook.Application.Features.CQRS.Queries.AboutQueries;
 using CarBook.Application.Interfaces;
 using CarBook.Application.Interfaces.CarRepositories;
@@ -43,17 +43,17 @@ builder.Services.AddScoped<UpdateCarCommandHandler>();
 builder.Services.AddScoped<RemoveCarCommandHandler>();
 builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
 //------------------------------------------------------------
-builder.Services.AddScoped<CreateCarFeatureCommandHandler>();
-builder.Services.AddScoped<GetCarFeatureByIDQueryHandler>();
-builder.Services.AddScoped<GetCarFeatureQueryHandler>();
-builder.Services.AddScoped<UpdateCarFeatureCommandHandler>();
-builder.Services.AddScoped<RemoveCarFeatureCommandHandler>();
+builder.Services.AddScoped<CreateCategoryCommandHandler>();
+builder.Services.AddScoped<GetCategoryByIDQueryHandler>();
+builder.Services.AddScoped<GetCategoryQueryHandler>();
+builder.Services.AddScoped<UpdateCategoryCommandHandler>();
+builder.Services.AddScoped<RemoveCategoryCommandHandler>();
 //------------------------------------------------------------
-builder.Services.AddScoped<CreateCarDescriptionCommandHandler>();
-builder.Services.AddScoped<GetCarDescriptionByIDQueryHandler>();
-builder.Services.AddScoped<GetCarDescriptionQueryHandler>();
-builder.Services.AddScoped<UpdateCarDescriptionCommandHandler>();
-builder.Services.AddScoped<RemoveCarDescriptionCommandHandler>();
+builder.Services.AddScoped<CreateContactCommandHandler>();
+builder.Services.AddScoped<GetContactByIDQueryHandler>();
+builder.Services.AddScoped<GetContactQueryHandler>();
+builder.Services.AddScoped<UpdateContactCommandHandler>();
+builder.Services.AddScoped<RemoveContactCommandHandler>();
 //------------------------------------------------------------
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
