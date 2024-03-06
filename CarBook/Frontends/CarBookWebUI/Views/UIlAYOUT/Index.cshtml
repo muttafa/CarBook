@@ -4,5 +4,30 @@
 }
 
 <!DOCTYPE html>
+<html lang="en">
+    
+  @await Component.InvokeAsync("_HeadUILayoutComponentPartial")
 
-@RenderBody()
+  <body>
+    
+	  @await Component.InvokeAsync("_NavbarUILayoutComponentPartial")
+    <!-- END nav -->
+    @await Component.InvokeAsync("_MainCoverUILayoutComponentPartial")
+
+
+    @RenderBody()
+		
+		
+
+    @await Component.InvokeAsync("_FooterUILayoutComponentPartial")
+    
+  
+
+  <!-- loader -->
+    @await Component.InvokeAsync("_LoaderUILayoutComponentPartial")
+
+
+    @await Component.InvokeAsync("_ScriptUILayoutComponentPartial")
+  </body>
+</html>
+
